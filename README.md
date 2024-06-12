@@ -1,2 +1,3 @@
 # DAILY_JOURNAL
-Blogging website to post technological posts
+
+Blogging application to post technological posts
