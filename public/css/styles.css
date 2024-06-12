@@ -1,0 +1,391 @@
+
+/* Custom scrollbar */
+
+::-webkit-scrollbar{
+  width: 3px;
+  height: 4px;
+}
+
+::-webkit-scrollbar-track{
+  background: #35333b;
+}
+
+::-webkit-scrollbar-track:horizontal{
+  background: #2B2B2B;
+}
+
+::-webkit-scrollbar-thumb {
+  background: white;
+  border-radius: 2px;
+}
+
+::-webkit-scrollbar-thumb:horizontal{
+    background: #555;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+::-webkit-scrollbar-corner{
+  display: none;
+}
+
+body {
+  background-color: #35333b;
+  color: white;
+}
+
+h1 {
+  color: #ebecee;
+  letter-spacing: 5px;
+}
+
+p {
+  color: white;
+}
+
+.home-style {
+  color: black;
+}
+
+.card .card-body>p {
+  color: black;
+}
+
+.content {
+  margin-top: 170px;
+}
+
+.container-fluid {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.navbar {
+  padding-top: 20px;
+  padding-bottom: 23px;
+  border: 0;
+  border-radius: 0;
+  margin-bottom: 0;
+  font-size: 12px;
+  letter-spacing: 5px;
+}
+
+.navbar-nav li a:hover {
+  color: #1abc9c !important;
+}
+
+.nav-item {
+  font-weight: bold;
+  padding-left: 8px;
+}
+
+.footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  margin-top: 30px;
+  background-color: black;
+  height: 324px;
+}
+
+.footer-msg {
+  padding: 35px 0 0;
+  color: gray;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.copyright {
+  text-align: center;
+  margin: 117px 0 0;
+  /* height: 10px; */
+  font-size: 12px;
+  color: #fff;
+}
+
+.readMore {
+  text-decoration: none;
+  font-weight: 500;
+  color: #28ABB9;
+}
+
+.readMore:hover {
+  color: #28ABB9;
+  text-decoration: underline;
+}
+
+.card {
+  width: 47%;
+  margin: 10px 15px;
+  padding: 0;
+  border: 0;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.tech-img {
+  width: 609.1px;
+  height: 280px;
+}
+
+.c-button {
+  border-radius: 1px;
+  border: 1px solid black;
+  background-color: transparent;
+  color: black;
+}
+
+.compose-btn {
+  margin-bottom: 50px;
+}
+
+.c-button:hover {
+  background-color: black;
+  color: white;
+}
+
+.single-post-img {
+  margin: 50px auto;
+  width: 800px;
+}
+
+.card-body .foot {
+  margin-top: 12px;
+}
+
+.spacing {
+  width: 75%;
+  margin: 0 0 6px 0;
+}
+
+.c-select {
+  width: 20%;
+  position: absolute;
+  top: 258px;
+  right: 123px;
+}
+
+.social-img {
+  width: 30px;
+  margin: 0 15px;
+  opacity: 0.4;
+}
+
+.social-img:hover {
+  opacity: 1;
+}
+
+.social {
+  text-align: center;
+  margin: 40px 20%;
+}
+
+.siz {
+  width: 35px;
+}
+
+.c-heading {
+  position: relative;
+  width: 100%;
+  text-align: center;
+  margin: 60px 0 30px;
+}
+
+.compose {
+  position: absolute;
+  right: 145px;
+}
+
+.scrollToTop {
+  position: fixed;
+  right: 40px;
+  bottom: 40px;
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  border: 0;
+  z-index: 1;
+  outline: none !important;
+  background-color: #282828;
+}
+
+.scrollToTop:active {
+  background-color: #696969;
+}
+
+.arrow {
+  color: white;
+  margin-top: 5px;
+}
+
+.img {
+  background-size: 100%;
+  background-position: 0 15%;
+  background-repeat: no-repeat;
+  background-color: orange;
+  z-index: -1;
+}
+
+.disp {
+  display: block;
+  border-radius: 50px;
+  margin: 20px;
+  width: 400px;
+  height: 50px;
+  border: 0;
+  position: relative;
+  left: 26%;
+  padding: 0 0 0 20px;
+  color: white;
+}
+
+.transparent {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.account {
+  margin: 0 5px;
+  /* display: none; */
+}
+
+.amazonOffers {
+  position: absolute;
+  top: 280px;
+  right: 100px;
+  height: auto;
+  width: 495px;
+  padding: 0 2%;
+}
+
+.products {
+  margin: 50px 0 0;
+  text-align: center;
+}
+
+iframe {
+  margin: 30px 10px;
+}
+
+#btn-add {
+  border: 1px solid #ced4da;
+  color: white;
+  position: absolute;
+  right: 282px;
+  top: 516px;
+  width: 145px;
+  border-radius: 4px;
+}
+
+#btn-remove {
+  border: 1px solid #ced4da;
+  color: white;
+  position: absolute;
+  right: 124px;
+  top: 516px;
+  width: 145px;
+  border-radius: 4px;
+}
+
+#composeSubmit {
+  color: white;
+}
+
+#composeSubmit:hover {
+  border: 1px solid white;
+  background-color: white;
+  color: black;
+}
+
+.bottomForAlign {
+  text-align: center;
+}
+
+#signup {
+  width: 30%;
+  position: absolute;
+  top: 240px;
+  left: 600px;
+}
+
+.digitalocean {
+  width: 100%;
+  position: relative;
+  text-align: center;
+  bottom: 100px;
+}
+
+.bottomForAlign_2 {
+  text-align: center;
+margin-top: 60px;
+}
+
+.between-block-img{
+  width:80%;
+  height: 9%x;
+  margin: 20px 0;
+  /* text-align: center; */
+}
+
+@media (max-width: 800px) {
+  body .background{
+    background-image: url('images/background-mobile.png');
+  }
+
+  .youtube {
+    width: 275px;
+    height: 155px;
+  }
+
+  .bottomForAlign_2 {
+    display: none;
+  }
+
+  .bottomForAlign_1 {
+    text-align: center;
+    height: 300px;
+  }
+
+  .card {
+    width: 87.5%;
+  }
+
+  .tech-img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .single-post-img {
+    width: 100%;
+  }
+
+  .amazonOffers {
+    display: none;
+  }
+
+  .scrollToTop {
+    right: 20px;
+    bottom: 30px;
+    height: 40px;
+    width: 40px;
+  }
+}
+
+@media (min-width: 800px) {
+  .card {
+    width: 45%;
+  }
+
+  .tech-img {
+    width: 100%;
+    height: 280px;
+  }
+
+  .bottomForAlign_1 {
+    display: none;
+  }
+}
+
+
+
+/* bottomForAlign - Amazon Single add(first insert div & put this class), youtube video. */
